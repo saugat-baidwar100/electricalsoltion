@@ -16,6 +16,15 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["development"]
+    "customConditions": ["development"],
+    "baseUrl": ".",
+    "paths": {
+      "@Developer/libs/api-contract/*": ["libs/api-contract/src/*"],
+      "@Developer/libs/electric-prisma/*": ["libs/electric-prisma/src/*"]
+    }
+    // "paths": {
+    //   "@Developer/libs/api-contract/*": ["libs/api-contract/*"],
+    //   "@Developer/libs/electric-prisma/*": ["libs/electric-prisma/*"]
+    // }
   }
 }

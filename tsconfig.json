@@ -8,6 +8,18 @@
     },
     {
       "path": "./apps/backend"
+    },
+    {
+      "path": "./libs/electric-prisma"
+    },
+    {
+      "path": "./apps/frontend-e2e"
+    },
+    {
+      "path": "./apps/frontend"
+    },
+    {
+      "path": "./libs/api-contract"
     }
   ]
 }

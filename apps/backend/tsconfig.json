@@ -4,6 +4,12 @@
   "include": [],
   "references": [
     {
+      "path": "../../libs/electric-prisma"
+    },
+    {
+      "path": "../../libs/api-contract"
+    },
+    {
       "path": "./tsconfig.app.json"
     },
     {
